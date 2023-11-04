@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #2A246E;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.container{
+
+    color: #EADCF4;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    width: 60%;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+.profile{
+    /* height: 60vh;
+    width: 50vw; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    background-color: #491D7F;
+    /* display: none; */
+}
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid #2A246E;
+}
+.details{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+h2{
+    font-size: 30px;
+}
+.details p{
+    font-size: 15px;
+}
+.achievments{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.achievments p{
+    padding: 8px 30px;
+    /* display: inline; */
+    background-color:  #2A246E;
+    border-radius: 20px;
+}
+.experience p{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 10px 8px ;
+    width: fit-content;
+    background-color:  #2A246E;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 25px;
+    color: white;
+    background-color:  #491D7F;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+    transform: scale(0.95);
+}
